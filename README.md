@@ -4,7 +4,7 @@
 
 This section explains how to use this project.
 
-Run the main entry point program.
+Run the main program.
 
 ```sh
 bin/at
@@ -15,20 +15,14 @@ bin/at
 
 This section explains how to use scripts that are intended to ease the development of this project.
 
-Install development tools.
+Run style check.
 
 ```sh
-sudo apt-get install shellcheck
-```
-
-Run style check and show all concerns.
-
-```sh
-./run-style-check.sh
+script/check.sh
 ```
 
 Build the project like Jenkins.
 
 ```sh
-./build.sh
+script/build.sh
 ```
